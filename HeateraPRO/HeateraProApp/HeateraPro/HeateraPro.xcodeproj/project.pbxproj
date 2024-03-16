@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		614E38872AE54A64007C0730 /* SidemenuVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E38812AE54A64007C0730 /* SidemenuVCc.swift */; };
+		614E38882AE54A64007C0730 /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E38822AE54A64007C0730 /* SidemenuVC.swift */; };
+		614E38892AE54A64007C0730 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E38832AE54A64007C0730 /* FeedbackVC.swift */; };
+		614E388A2AE54A64007C0730 /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E38842AE54A64007C0730 /* sidemenuTblCell.swift */; };
+		614E388B2AE54A64007C0730 /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E38852AE54A64007C0730 /* Abtsvc.swift */; };
+		614E388C2AE54A64007C0730 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E38862AE54A64007C0730 /* Helper.swift */; };
+		618C16DE2AE4E8E400510DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C16DD2AE4E8E400510DFE /* AppDelegate.swift */; };
+		618C16E02AE4E8E400510DFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C16DF2AE4E8E400510DFE /* SceneDelegate.swift */; };
+		618C16E22AE4E8E400510DFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C16E12AE4E8E400510DFE /* ViewController.swift */; };
+		618C16E52AE4E8E400510DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618C16E32AE4E8E400510DFE /* Main.storyboard */; };
+		618C16E72AE4E8E500510DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618C16E62AE4E8E500510DFE /* Assets.xcassets */; };
+		618C16EA2AE4E8E500510DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618C16E82AE4E8E500510DFE /* LaunchScreen.storyboard */; };
+		618C16FA2AE5007100510DFE /* Areavc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C16F92AE5007100510DFE /* Areavc.swift */; };
+		618C16FC2AE5007B00510DFE /* Lengthvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C16FB2AE5007B00510DFE /* Lengthvc.swift */; };
+		618C16FE2AE5008700510DFE /* Speedvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C16FD2AE5008700510DFE /* Speedvc.swift */; };
+		618C17012AE507F100510DFE /* Heatvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C17002AE507F100510DFE /* Heatvc.swift */; };
+		618C17032AE507FB00510DFE /* Heatflux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C17022AE507FB00510DFE /* Heatflux.swift */; };
+		618C17052AE5080800510DFE /* Heatdensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C17042AE5080800510DFE /* Heatdensity.swift */; };
+		879F6C56D12C7BCE4695ADAC /* Pods_HeateraPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DA310A7277AA999CFA9EDA /* Pods_HeateraPro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		614E38812AE54A64007C0730 /* SidemenuVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVCc.swift; sourceTree = "<group>"; };
+		614E38822AE54A64007C0730 /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		614E38832AE54A64007C0730 /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		614E38842AE54A64007C0730 /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		614E38852AE54A64007C0730 /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		614E38862AE54A64007C0730 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		618C16DA2AE4E8E400510DFE /* HeateraPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeateraPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		618C16DD2AE4E8E400510DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		618C16DF2AE4E8E400510DFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		618C16E12AE4E8E400510DFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		618C16E42AE4E8E400510DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		618C16E62AE4E8E500510DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		618C16E92AE4E8E500510DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		618C16EB2AE4E8E500510DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618C16F92AE5007100510DFE /* Areavc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Areavc.swift; sourceTree = "<group>"; };
+		618C16FB2AE5007B00510DFE /* Lengthvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lengthvc.swift; sourceTree = "<group>"; };
+		618C16FD2AE5008700510DFE /* Speedvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedvc.swift; sourceTree = "<group>"; };
+		618C17002AE507F100510DFE /* Heatvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatvc.swift; sourceTree = "<group>"; };
+		618C17022AE507FB00510DFE /* Heatflux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatflux.swift; sourceTree = "<group>"; };
+		618C17042AE5080800510DFE /* Heatdensity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatdensity.swift; sourceTree = "<group>"; };
+		7137EEB003A560498821DC67 /* Pods-HeateraPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeateraPro.debug.xcconfig"; path = "Target Support Files/Pods-HeateraPro/Pods-HeateraPro.debug.xcconfig"; sourceTree = "<group>"; };
+		73DA310A7277AA999CFA9EDA /* Pods_HeateraPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeateraPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2149AE66070B919ADC8F21F /* Pods-HeateraPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeateraPro.release.xcconfig"; path = "Target Support Files/Pods-HeateraPro/Pods-HeateraPro.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		618C16D72AE4E8E400510DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879F6C56D12C7BCE4695ADAC /* Pods_HeateraPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51C0923DDDFC213508CAE949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73DA310A7277AA999CFA9EDA /* Pods_HeateraPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		614E38802AE54A64007C0730 /* Sidemenufile */ = {
+			isa = PBXGroup;
+			children = (
+				614E38812AE54A64007C0730 /* SidemenuVCc.swift */,
+				614E38822AE54A64007C0730 /* SidemenuVC.swift */,
+				614E38832AE54A64007C0730 /* FeedbackVC.swift */,
+				614E38842AE54A64007C0730 /* sidemenuTblCell.swift */,
+				614E38852AE54A64007C0730 /* Abtsvc.swift */,
+				614E38862AE54A64007C0730 /* Helper.swift */,
+			);
+			path = Sidemenufile;
+			sourceTree = "<group>";
+		};
+		614E388D2AE54A93007C0730 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				618C16E12AE4E8E400510DFE /* ViewController.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		618C16D12AE4E8E400510DFE = {
+			isa = PBXGroup;
+			children = (
+				618C16DC2AE4E8E400510DFE /* HeateraPro */,
+				618C16DB2AE4E8E400510DFE /* Products */,
+				CEA6C42356DEF48E29B30E9C /* Pods */,
+				51C0923DDDFC213508CAE949 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		618C16DB2AE4E8E400510DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				618C16DA2AE4E8E400510DFE /* HeateraPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		618C16DC2AE4E8E400510DFE /* HeateraPro */ = {
+			isa = PBXGroup;
+			children = (
+				618C16DD2AE4E8E400510DFE /* AppDelegate.swift */,
+				618C16DF2AE4E8E400510DFE /* SceneDelegate.swift */,
+				614E388D2AE54A93007C0730 /* MainVC */,
+				614E38802AE54A64007C0730 /* Sidemenufile */,
+				618C17062AE50AA300510DFE /* SecondSection */,
+				618C16FF2AE5008D00510DFE /* FirstSection */,
+				618C16E32AE4E8E400510DFE /* Main.storyboard */,
+				618C16E62AE4E8E500510DFE /* Assets.xcassets */,
+				618C16E82AE4E8E500510DFE /* LaunchScreen.storyboard */,
+				618C16EB2AE4E8E500510DFE /* Info.plist */,
+			);
+			path = HeateraPro;
+			sourceTree = "<group>";
+		};
+		618C16FF2AE5008D00510DFE /* FirstSection */ = {
+			isa = PBXGroup;
+			children = (
+				618C16FB2AE5007B00510DFE /* Lengthvc.swift */,
+				618C16FD2AE5008700510DFE /* Speedvc.swift */,
+				618C16F92AE5007100510DFE /* Areavc.swift */,
+			);
+			name = FirstSection;
+			sourceTree = "<group>";
+		};
+		618C17062AE50AA300510DFE /* SecondSection */ = {
+			isa = PBXGroup;
+			children = (
+				618C17002AE507F100510DFE /* Heatvc.swift */,
+				618C17022AE507FB00510DFE /* Heatflux.swift */,
+				618C17042AE5080800510DFE /* Heatdensity.swift */,
+			);
+			path = SecondSection;
+			sourceTree = "<group>";
+		};
+		CEA6C42356DEF48E29B30E9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7137EEB003A560498821DC67 /* Pods-HeateraPro.debug.xcconfig */,
+				C2149AE66070B919ADC8F21F /* Pods-HeateraPro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		618C16D92AE4E8E400510DFE /* HeateraPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618C16EE2AE4E8E500510DFE /* Build configuration list for PBXNativeTarget "HeateraPro" */;
+			buildPhases = (
+				205DCADFF01B21B5620ED860 /* [CP] Check Pods Manifest.lock */,
+				618C16D62AE4E8E400510DFE /* Sources */,
+				618C16D72AE4E8E400510DFE /* Frameworks */,
+				618C16D82AE4E8E400510DFE /* Resources */,
+				BA862D7E706AC43579BEF2D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeateraPro;
+			productName = demoo;
+			productReference = 618C16DA2AE4E8E400510DFE /* HeateraPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		618C16D22AE4E8E400510DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					618C16D92AE4E8E400510DFE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 618C16D52AE4E8E400510DFE /* Build configuration list for PBXProject "HeateraPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 618C16D12AE4E8E400510DFE;
+			productRefGroup = 618C16DB2AE4E8E400510DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				618C16D92AE4E8E400510DFE /* HeateraPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618C16D82AE4E8E400510DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618C16EA2AE4E8E500510DFE /* LaunchScreen.storyboard in Resources */,
+				618C16E72AE4E8E500510DFE /* Assets.xcassets in Resources */,
+				618C16E52AE4E8E400510DFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		205DCADFF01B21B5620ED860 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeateraPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA862D7E706AC43579BEF2D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeateraPro/Pods-HeateraPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeateraPro/Pods-HeateraPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeateraPro/Pods-HeateraPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618C16D62AE4E8E400510DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614E38872AE54A64007C0730 /* SidemenuVCc.swift in Sources */,
+				618C17012AE507F100510DFE /* Heatvc.swift in Sources */,
+				614E388C2AE54A64007C0730 /* Helper.swift in Sources */,
+				618C16FA2AE5007100510DFE /* Areavc.swift in Sources */,
+				614E38882AE54A64007C0730 /* SidemenuVC.swift in Sources */,
+				618C16E22AE4E8E400510DFE /* ViewController.swift in Sources */,
+				614E38892AE54A64007C0730 /* FeedbackVC.swift in Sources */,
+				618C16FC2AE5007B00510DFE /* Lengthvc.swift in Sources */,
+				614E388A2AE54A64007C0730 /* sidemenuTblCell.swift in Sources */,
+				618C17052AE5080800510DFE /* Heatdensity.swift in Sources */,
+				618C17032AE507FB00510DFE /* Heatflux.swift in Sources */,
+				614E388B2AE54A64007C0730 /* Abtsvc.swift in Sources */,
+				618C16FE2AE5008700510DFE /* Speedvc.swift in Sources */,
+				618C16DE2AE4E8E400510DFE /* AppDelegate.swift in Sources */,
+				618C16E02AE4E8E400510DFE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		618C16E32AE4E8E400510DFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618C16E42AE4E8E400510DFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		618C16E82AE4E8E500510DFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618C16E92AE4E8E500510DFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		618C16EC2AE4E8E500510DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		618C16ED2AE4E8E500510DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		618C16EF2AE4E8E500510DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7137EEB003A560498821DC67 /* Pods-HeateraPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeateraPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HeateraPro;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.demoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		618C16F02AE4E8E500510DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2149AE66070B919ADC8F21F /* Pods-HeateraPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeateraPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HeateraPro;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.demoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		618C16D52AE4E8E400510DFE /* Build configuration list for PBXProject "HeateraPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618C16EC2AE4E8E500510DFE /* Debug */,
+				618C16ED2AE4E8E500510DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618C16EE2AE4E8E500510DFE /* Build configuration list for PBXNativeTarget "HeateraPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618C16EF2AE4E8E500510DFE /* Debug */,
+				618C16F02AE4E8E500510DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 618C16D22AE4E8E400510DFE /* Project object */;
+}

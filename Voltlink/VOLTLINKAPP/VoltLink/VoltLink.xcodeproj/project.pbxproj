@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1EE001C64B512F241DD8E6 /* Pods_VoltLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10320F5E25013591F3781644 /* Pods_VoltLink.framework */; };
+		617E07FD2AE02A8600E6FDE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E07FC2AE02A8600E6FDE3 /* AppDelegate.swift */; };
+		617E07FF2AE02A8600E6FDE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E07FE2AE02A8600E6FDE3 /* SceneDelegate.swift */; };
+		617E08042AE02A8600E6FDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617E08022AE02A8600E6FDE3 /* Main.storyboard */; };
+		617E08062AE02A8700E6FDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617E08052AE02A8700E6FDE3 /* Assets.xcassets */; };
+		617E08092AE02A8700E6FDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617E08072AE02A8700E6FDE3 /* LaunchScreen.storyboard */; };
+		617E08112AE02AA800E6FDE3 /* Flybackvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E08102AE02AA800E6FDE3 /* Flybackvc.swift */; };
+		617E08132AE02AC000E6FDE3 /* Buckvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E08122AE02AC000E6FDE3 /* Buckvc.swift */; };
+		617E08152AE02AD500E6FDE3 /* Cyclovc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E08142AE02AD500E6FDE3 /* Cyclovc.swift */; };
+		617E08172AE02AE700E6FDE3 /* Frequencyvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E08162AE02AE700E6FDE3 /* Frequencyvc.swift */; };
+		617E081A2AE04B9300E6FDE3 /* Mainvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E08192AE04B9300E6FDE3 /* Mainvc.swift */; };
+		617E08222AE04EB200E6FDE3 /* SidemenuVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E081C2AE04EB200E6FDE3 /* SidemenuVCc.swift */; };
+		617E08232AE04EB200E6FDE3 /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E081D2AE04EB200E6FDE3 /* SidemenuVC.swift */; };
+		617E08242AE04EB200E6FDE3 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E081E2AE04EB200E6FDE3 /* FeedbackVC.swift */; };
+		617E08252AE04EB200E6FDE3 /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E081F2AE04EB200E6FDE3 /* sidemenuTblCell.swift */; };
+		617E08262AE04EB200E6FDE3 /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E08202AE04EB200E6FDE3 /* Abtsvc.swift */; };
+		617E08272AE04EB200E6FDE3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E08212AE04EB200E6FDE3 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10320F5E25013591F3781644 /* Pods_VoltLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoltLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		617E07F92AE02A8600E6FDE3 /* VoltLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617E07FC2AE02A8600E6FDE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		617E07FE2AE02A8600E6FDE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		617E08032AE02A8600E6FDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		617E08052AE02A8700E6FDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		617E08082AE02A8700E6FDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		617E080A2AE02A8700E6FDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617E08102AE02AA800E6FDE3 /* Flybackvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flybackvc.swift; sourceTree = "<group>"; };
+		617E08122AE02AC000E6FDE3 /* Buckvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buckvc.swift; sourceTree = "<group>"; };
+		617E08142AE02AD500E6FDE3 /* Cyclovc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyclovc.swift; sourceTree = "<group>"; };
+		617E08162AE02AE700E6FDE3 /* Frequencyvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frequencyvc.swift; sourceTree = "<group>"; };
+		617E08192AE04B9300E6FDE3 /* Mainvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mainvc.swift; sourceTree = "<group>"; };
+		617E081C2AE04EB200E6FDE3 /* SidemenuVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVCc.swift; sourceTree = "<group>"; };
+		617E081D2AE04EB200E6FDE3 /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		617E081E2AE04EB200E6FDE3 /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		617E081F2AE04EB200E6FDE3 /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		617E08202AE04EB200E6FDE3 /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		617E08212AE04EB200E6FDE3 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A8C601BCBB9211441A000EE6 /* Pods-VoltLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltLink.debug.xcconfig"; path = "Target Support Files/Pods-VoltLink/Pods-VoltLink.debug.xcconfig"; sourceTree = "<group>"; };
+		D150E934F717DB192E4FCB57 /* Pods-VoltLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoltLink.release.xcconfig"; path = "Target Support Files/Pods-VoltLink/Pods-VoltLink.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617E07F62AE02A8600E6FDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1EE001C64B512F241DD8E6 /* Pods_VoltLink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1BB50DBECB660A6524954C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10320F5E25013591F3781644 /* Pods_VoltLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FE5E992E7265193918A04E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C601BCBB9211441A000EE6 /* Pods-VoltLink.debug.xcconfig */,
+				D150E934F717DB192E4FCB57 /* Pods-VoltLink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		617E07F02AE02A8600E6FDE3 = {
+			isa = PBXGroup;
+			children = (
+				617E07FB2AE02A8600E6FDE3 /* VoltLink */,
+				617E07FA2AE02A8600E6FDE3 /* Products */,
+				5FE5E992E7265193918A04E0 /* Pods */,
+				3C1BB50DBECB660A6524954C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		617E07FA2AE02A8600E6FDE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617E07F92AE02A8600E6FDE3 /* VoltLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		617E07FB2AE02A8600E6FDE3 /* VoltLink */ = {
+			isa = PBXGroup;
+			children = (
+				617E07FC2AE02A8600E6FDE3 /* AppDelegate.swift */,
+				617E07FE2AE02A8600E6FDE3 /* SceneDelegate.swift */,
+				617E081B2AE04EB200E6FDE3 /* Sidemenufile */,
+				617E08182AE02AEF00E6FDE3 /* ViewControllerFile */,
+				617E08022AE02A8600E6FDE3 /* Main.storyboard */,
+				617E08052AE02A8700E6FDE3 /* Assets.xcassets */,
+				617E08072AE02A8700E6FDE3 /* LaunchScreen.storyboard */,
+				617E080A2AE02A8700E6FDE3 /* Info.plist */,
+			);
+			path = VoltLink;
+			sourceTree = "<group>";
+		};
+		617E08182AE02AEF00E6FDE3 /* ViewControllerFile */ = {
+			isa = PBXGroup;
+			children = (
+				617E08102AE02AA800E6FDE3 /* Flybackvc.swift */,
+				617E08122AE02AC000E6FDE3 /* Buckvc.swift */,
+				617E08142AE02AD500E6FDE3 /* Cyclovc.swift */,
+				617E08162AE02AE700E6FDE3 /* Frequencyvc.swift */,
+				617E08192AE04B9300E6FDE3 /* Mainvc.swift */,
+			);
+			path = ViewControllerFile;
+			sourceTree = "<group>";
+		};
+		617E081B2AE04EB200E6FDE3 /* Sidemenufile */ = {
+			isa = PBXGroup;
+			children = (
+				617E081C2AE04EB200E6FDE3 /* SidemenuVCc.swift */,
+				617E081D2AE04EB200E6FDE3 /* SidemenuVC.swift */,
+				617E081E2AE04EB200E6FDE3 /* FeedbackVC.swift */,
+				617E081F2AE04EB200E6FDE3 /* sidemenuTblCell.swift */,
+				617E08202AE04EB200E6FDE3 /* Abtsvc.swift */,
+				617E08212AE04EB200E6FDE3 /* Helper.swift */,
+			);
+			path = Sidemenufile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617E07F82AE02A8600E6FDE3 /* VoltLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617E080D2AE02A8700E6FDE3 /* Build configuration list for PBXNativeTarget "VoltLink" */;
+			buildPhases = (
+				4439A8E360930E0B7B5B31E3 /* [CP] Check Pods Manifest.lock */,
+				617E07F52AE02A8600E6FDE3 /* Sources */,
+				617E07F62AE02A8600E6FDE3 /* Frameworks */,
+				617E07F72AE02A8600E6FDE3 /* Resources */,
+				069459E3B37F1A72CD4BA17D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoltLink;
+			productName = VoltLink;
+			productReference = 617E07F92AE02A8600E6FDE3 /* VoltLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617E07F12AE02A8600E6FDE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					617E07F82AE02A8600E6FDE3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 617E07F42AE02A8600E6FDE3 /* Build configuration list for PBXProject "VoltLink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 617E07F02AE02A8600E6FDE3;
+			productRefGroup = 617E07FA2AE02A8600E6FDE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617E07F82AE02A8600E6FDE3 /* VoltLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617E07F72AE02A8600E6FDE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617E08092AE02A8700E6FDE3 /* LaunchScreen.storyboard in Resources */,
+				617E08062AE02A8700E6FDE3 /* Assets.xcassets in Resources */,
+				617E08042AE02A8600E6FDE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069459E3B37F1A72CD4BA17D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoltLink/Pods-VoltLink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoltLink/Pods-VoltLink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoltLink/Pods-VoltLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4439A8E360930E0B7B5B31E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoltLink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617E07F52AE02A8600E6FDE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617E07FD2AE02A8600E6FDE3 /* AppDelegate.swift in Sources */,
+				617E08242AE04EB200E6FDE3 /* FeedbackVC.swift in Sources */,
+				617E08262AE04EB200E6FDE3 /* Abtsvc.swift in Sources */,
+				617E07FF2AE02A8600E6FDE3 /* SceneDelegate.swift in Sources */,
+				617E08222AE04EB200E6FDE3 /* SidemenuVCc.swift in Sources */,
+				617E08112AE02AA800E6FDE3 /* Flybackvc.swift in Sources */,
+				617E08132AE02AC000E6FDE3 /* Buckvc.swift in Sources */,
+				617E081A2AE04B9300E6FDE3 /* Mainvc.swift in Sources */,
+				617E08172AE02AE700E6FDE3 /* Frequencyvc.swift in Sources */,
+				617E08232AE04EB200E6FDE3 /* SidemenuVC.swift in Sources */,
+				617E08272AE04EB200E6FDE3 /* Helper.swift in Sources */,
+				617E08152AE02AD500E6FDE3 /* Cyclovc.swift in Sources */,
+				617E08252AE04EB200E6FDE3 /* sidemenuTblCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		617E08022AE02A8600E6FDE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617E08032AE02A8600E6FDE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		617E08072AE02A8700E6FDE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617E08082AE02A8700E6FDE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617E080B2AE02A8700E6FDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		617E080C2AE02A8700E6FDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617E080E2AE02A8700E6FDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C601BCBB9211441A000EE6 /* Pods-VoltLink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoltLink/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.voltts.vot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617E080F2AE02A8700E6FDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D150E934F717DB192E4FCB57 /* Pods-VoltLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoltLink/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.voltts.vot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617E07F42AE02A8600E6FDE3 /* Build configuration list for PBXProject "VoltLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617E080B2AE02A8700E6FDE3 /* Debug */,
+				617E080C2AE02A8700E6FDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617E080D2AE02A8700E6FDE3 /* Build configuration list for PBXNativeTarget "VoltLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617E080E2AE02A8700E6FDE3 /* Debug */,
+				617E080F2AE02A8700E6FDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 617E07F12AE02A8600E6FDE3 /* Project object */;
+}
